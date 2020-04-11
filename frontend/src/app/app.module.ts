@@ -1,8 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppComponent } from './app.component';
 import {APP_BASE_HREF} from '@angular/common';
+import { RestTestService } from './rest-test.service';
 
 
 @NgModule({
@@ -10,9 +13,10 @@ import {APP_BASE_HREF} from '@angular/common';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: 'ngboot-app'}],
+  providers: [{provide: APP_BASE_HREF, useValue: 'ngboot-app'}, RestTestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

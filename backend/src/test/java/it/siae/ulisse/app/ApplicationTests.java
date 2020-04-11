@@ -1,4 +1,4 @@
-package com.shekhargulati.app;
+package it.siae.ulisse.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
