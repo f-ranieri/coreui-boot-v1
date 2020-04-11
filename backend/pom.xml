@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
-    <groupId>com.alkemy.siae.ulisse</groupId>
+    <groupId>it.siae.ulisse</groupId>
     <artifactId>sdoav-sport-batches</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -17,7 +17,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.shekhargulati.starters.ngboot</groupId>
+			<groupId>it.siae.ulisse</groupId>
 			<artifactId>frontend</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
